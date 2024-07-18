@@ -1,0 +1,30 @@
+.chart-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 10px;
+  background-color: #f8f1f1;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chart-container h3 {
+  grid-column: span 2;
+  text-align: center;
+  font-size: 26px;
+  color: #181818;
+}
+
+.chart-wrapper {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chart-wrapper h3 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #7ade49;
+}
